@@ -1,6 +1,5 @@
 absl-py
 appdirs
-apturl
 argon2-cffi
 arrow
 asn1crypto
@@ -12,25 +11,20 @@ backcall
 bcrypt
 bleach
 blinker
-Brlapi
 cachetools
 certifi
 cffi
 chardet
 click
 colorama
-command-not-found
 cryptography
-cupshelpers
 cycler
 dateparser
-dbus-python
 decorator
 defer
 defusedxml
 distlib
 distro
-distro-info
 entrypoints
 filelock
 flatbuffers
@@ -64,7 +58,6 @@ Keras-Applications
 Keras-Preprocessing
 keyring
 kiwisolver
-language-selector
 launchpadlib
 lazr.restfulclient
 lazr.uri
@@ -103,9 +96,7 @@ pyasn1
 pyasn1-modules
 pycairo
 pycparser
-pycups
 Pygments
-PyGObject
 PyJWT
 pymacaroons
 pymongo
@@ -113,7 +104,6 @@ PyNaCl
 pyparsing
 pyRFC3339
 pyrsistent
-python-apt
 python-dateutil
 python-debian
 pytz
@@ -136,7 +126,6 @@ Send2Trash
 simplejson
 six
 sklearn
-systemd-python
 tensorboard
 tensorboard-plugin-wit
 tensorflow
@@ -150,10 +139,6 @@ tornado
 traitlets
 typing-extensions
 tzlocal
-ubuntu-advantage-tools
-ubuntu-drivers-common
-ufw
-unattended-upgrades
 urllib3
 virtualenv
 wadllib
@@ -162,4 +147,3 @@ webencodings
 Werkzeug
 widgetsnbextension
 wrapt
-xkit

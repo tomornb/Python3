@@ -1,5 +1,9 @@
 mkdir -p /home/tomornb/source
 cd /home/tomornb/source
 git clone https://github.com/tomornb/Python3.git
-docker build -t python3 .
-docker run -it --rm --name python3_running python3
+docker builder prune
+docker build -t python3.8 .
+docker run -it --rm --name python3.8_running python3.8
+docker tag python3.8:latest tomornb/python3.8:tag_20210126
+docker push tomornb/python3.8:tag_20210126
+
