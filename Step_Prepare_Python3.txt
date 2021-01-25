@@ -1,0 +1,5 @@
+mkdir -p /home/tomornb/source
+cd /home/tomornb/source
+git clone https://github.com/tomornb/Python3.git
+docker build -t python3 .
+docker run -it --rm --name python3_running python3
